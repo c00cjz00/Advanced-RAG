@@ -21,3 +21,10 @@ It's crucial to the success of a RAG application.
 1. [RAG on Semi-structured data](./01_semi_structured_data.ipynb)
 2. [Multi-Modal RAG](./02_multi_modal.ipynb)
 3. [Multi-Document RAG with LlamaIndex](./03_llama_index_multi_doc_agent.ipynb)
+
+
+## c00cjz00
+- singularity
+```
+ml libs/singularity/3.10.2 ; singularity exec --nv /work/u00cjz00/nvidia/cuda118/c00cjz00_cuda11.8_pytorch_2.1.2-cuda11.8-cudnn8-devel-unstructured.sif python3 unstructured_pdf.py 1Q23-EPR-with-Tables-FINAL.pdf 1Q23-EPR-with-Tables-FINAL.json
+```
