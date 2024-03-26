@@ -1,5 +1,5 @@
 #CMD: ml libs/singularity/3.10.2 ; singularity pull docker://c00cjz00/c00cjz00_cuda11.8_pytorch:2.1.2-cuda11.8-cudnn8-devel-unstructured
-#CMD: ml libs/singularity/3.10.2 ; singularity exec --nv /work/u00cjz00/nvidia/cuda118/c00cjz00_cuda11.8_pytorch_2.1.2-cuda11.8-cudnn8-devel-unstructured.sif python3 unstructured_pdf.py 1Q23-EPR-with-Tables-FINAL.pdf 1Q23-EPR-with-Tables-FINAL.json
+#CMD: ml libs/singularity/3.10.2 ; singularity exec --nv /work/u00cjz00/nvidia/cuda118/c00cjz00_cuda11.8_pytorch_2.1.2-cuda11.8-cudnn8-devel-unstructured.sif python3 a01-unstructured_pdf.py 1Q23-EPR-with-Tables-FINAL.pdf 1Q23-EPR-with-Tables-FINAL.json
 from typing import Any
 from pydantic import BaseModel
 from unstructured.partition.pdf import partition_pdf
